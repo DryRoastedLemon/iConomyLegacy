@@ -24,7 +24,7 @@ public class iConomy extends Plugin {
      */
     public static String name = "iConomy";
     public static String codename = "Euphemia";
-    public static String version = "1.9";
+    public static String version = "1.9.1";
 
     /**
      * Grab the logging system to attach to.
@@ -136,7 +136,7 @@ public class iConomy extends Plugin {
 
 	log.info(Messaging.bracketize(name) + " version " + Messaging.bracketize(version) + " ("+codename+") loaded");
 
-	if(Check != null) {
+	/*if(Check != null) {
 	    if (!Check.equals("1")) {
 		String[] data = Check.split(",");
 
@@ -144,7 +144,7 @@ public class iConomy extends Plugin {
 		log.info(Messaging.bracketize(name + " Update") + " version " + Messaging.bracketize(data[0]) + " has been released!");
 		log.info(Messaging.bracketize(name + " Update") + " " + data[1]);
 	    }
-	}
+	}*/
     }
 
     /**
