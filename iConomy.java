@@ -118,7 +118,7 @@ public class iConomy extends Plugin {
      * Initialize the plugin
      */
     public void initialize() {
-	String Check = Version.check();
+	/*String Check = Version.check();*/
 
 	PluginLoader loader = etc.getLoader();
 
